@@ -1,0 +1,6 @@
+ctransformers==0.2.5 # to load quantized model/open-source model with langchain
+
+pinecone-client # vectordb
+langchain==0.0.225
+flask # for frontend application
+sentence-transformers==2.2.2 # embedding model from HuggingFace
