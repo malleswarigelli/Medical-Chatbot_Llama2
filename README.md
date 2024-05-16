@@ -30,3 +30,10 @@ https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
 
 # run the following command
 python store_index.py
+
+# Techstack used
+- programming language: python
+- Generative AI framework: Langchain
+- Front end/ Web app: flask
+- LLM: meta llama2
+- Vector DB: Pinecone

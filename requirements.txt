@@ -6,3 +6,4 @@ flask # for frontend application
 sentence-transformers==2.2.2 # embedding model from HuggingFace
 load_dotenv
 pypdf
+langchain_pinecone
