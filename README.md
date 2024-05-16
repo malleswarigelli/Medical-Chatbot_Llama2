@@ -20,13 +20,21 @@ python app.py
 ```
 
 
-### Download the quantize model from the link provided in model folder & keep the model in the model directory:
+
 ## Download the Llama 2 Model:
+- llama-2-7b-chat.ggmlv3.q4_0.bin
 
-llama-2-7b-chat.ggmlv3.q4_0.bin
+- Download the quantize model from the link below to model folder & keep the model in the model directory:
+- https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
 
-## From the following link:
-https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
+## create `.env` file to store Pinecone credentials
+```
+PINECONE_API_KEY= "YOUR_API_KEY"
+PINECONE_API_ENV= "YOUR PINECONE CLOUD ENV"
+
+pass them as environment variables
+```
+
 
 # run the following command
 python store_index.py
