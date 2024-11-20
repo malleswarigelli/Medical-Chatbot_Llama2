@@ -4,11 +4,11 @@
 ## How to run?
 
 ```bash
-conda create -n medchat python=3.8 -y
+conda create -n medibot python=3.10 -y
 ```
 
 ```bash
-conda activate medchat
+conda activate medibot
 ```
 
 ```bash
@@ -29,11 +29,19 @@ python app.py
 
 ## create `.env` file to store Pinecone credentials
 ```
-PINECONE_API_KEY= "YOUR_API_KEY"
+PINECONE_API_KEY= "YOUR_PINECONE_API_KEY"
 PINECONE_API_ENV= "YOUR PINECONE CLOUD ENV"
+OPENAI_API_KEY = "YOUR_OPENAI_API_KEY"
 
 pass them as environment variables
 ```
+### Create a `.env` file in the root directory and add your Pinecone & openai credentials as follows:
+
+```ini
+PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+OPENAI_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+```
+
 
 
 # run the following command
